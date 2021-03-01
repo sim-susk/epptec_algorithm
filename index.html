@@ -11,30 +11,80 @@
 
     <title>epptec / algorithm</title>
 
-    <section>Matematická operace</section>
-        
-        <button id="odd">lichá</button>
-        
-        <button id="even">sudá</button>
-        
-        <button id="whole">celá</button>
 
-        <button id="decimal">desetinná</button>
-        
-        <button id="square">druhá mocnina</button>
+          <form name="form1">
+            <input class="array" type="text" name="numbers" size="20">řada čísel<BR>
+                <!-- <input type="button" value="Vypočti" onclick="Mocnina()"> -->
 
-        <button id="root">druhá odmocnina</button>
-        
-     <section>Vložit řadu čísel</section>
+                <input type="button" value="maximum" onclick="">
+                <input type="button" value="minimum" onclick="Min()">
+                <input type="button" value="lichá" onclick="Odd()">
+                <input type="button" value="sudá" onclick="Even()">
+                <input type="button" value="celá" onclick="Whole()">
+                <input type="button" value="desetinná" onclick="Decimal()">
+                <input type="button" value="mocnina" onclick="Square()">
+                <input type="button" value="suma" onclick="summArray()"><BR>
+                
+                <input id="result" type="number" name="vysledek" size="25" readonly>výsledek<BR>
 
-        <input type="nummber">
+            <input type="reset" value="Smaž"><BR>
+          </form> 
 
-     <section>Výsledek</section>
+<script>
 
-        <output class="p-3 mb-2 bg-light text-dark" name="x" for="a b"></output>
-        
+/* var array = Number(prompt("Zadejte radu cisel"));
+
+function sumArray(array) {
+  for (
+    var
+      index = 0,              // The iterator
+      length = array.length,  // Cache the array length
+      sum = 0;                // The total amount
+      index < length;         // The "for"-loop condition
+      sum += array[index++]   // Add number on each iteration
+  );
+  return sum;
+} */
+
+</script>
+
+          
+
+
+
+<!--      <script>
+let numbers = Number(prompt("Zadejte radu cisel"));
+// document.write(numbers);
+// let n = numbers[0];
+            
+for (let i = 0; i < numbers.length; i++) {
+            
+        };
+
+document.write(numbers[i] ** 2)
+
+
+
+</script>  -->
+
+
+<!-- <script>
+
+    rada = "první,druhá,třetí,čtvrtá";
+    var poleRada = rada.split(",");
+    alert(poleRada[1]) // vypíše druhá (je to od nuly)
+
+    numbers = "";
+    var numbersPole = numbers.split(",");
+    alert(numbersPole[n])
+
     
+</script> -->
 
+
+
+
+          
 
 </head>
 
